@@ -6,17 +6,17 @@
 
 Event Pipe::pull()
 {
-    return event_;
+    //return *event_;
 }
 
-void Pipe::push(Event e)
+void Pipe::push(Event& e)
 {
-    event_ = e;
+    //event_ = &e;
 }
 
 Pipe::Pipe()
 {
-    event_ = Event();
+    //*event_ = Event{Event::Type::UNKNOWN};
 }
 
 Pipe::~Pipe()

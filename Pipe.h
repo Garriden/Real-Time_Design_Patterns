@@ -10,11 +10,13 @@ class Pipe {
     Pipe();
     ~Pipe();
 public:
-    void push(Event e);
+    void push(const Event& e);
     Event pull();
 
 private:
-    Event event_;
+    Event::Type *event_;
+
+    void push(Event &e);
 };
 
 

@@ -10,6 +10,5 @@ int Generator::run()
     int randNumber = rand() % 3;
     Event e = Event(static_cast<Event::Type>(randNumber));
     outputPipe->push(e);
-
     return randNumber;
 }
