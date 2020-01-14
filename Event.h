@@ -7,7 +7,7 @@
 
 class Event {
 public:
-    enum class Type {WARNING, CAUTION, ADVISORY, UNKNOWN};
+    enum class Type : int {WARNING = 0, CAUTION, ADVISORY, UNKNOWN};
 
     Event();
     explicit Event(Type t);

@@ -13,6 +13,7 @@ Event::Event()
 Event::Event(Event::Type t)
 {
     std::cout << "Constructor" << std::endl;
+    type_ = t;
 }
 
 Event::~Event()
