@@ -3,4 +3,4 @@ project(24)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(24 main.cpp Event.cpp Event.h Pipe.cpp Pipe.h Generator.cpp Generator.h)
+add_executable(24 main.cpp Event.cpp Event.h Pipe.cpp Pipe.h Generator.cpp Generator.h LowPass.cpp LowPass.h Display.cpp Display.h)
