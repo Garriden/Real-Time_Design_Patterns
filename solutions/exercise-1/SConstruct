@@ -1,0 +1,41 @@
+#!python
+import os
+
+env = Environment()
+
+vars = Variables(None, ARGUMENTS)
+vars.Add(EnumVariable('BUILD_TYPE', 'type of build to use', 'debug',  allowed_values=('debug', 'tdd')))
+
+env = Environment(variables = vars)
+
+if env['BUILD_TYPE'] == 'debug':
+    print '*** debug build'
+
+if env['BUILD_TYPE'] == 'tdd':
+    print '*** TDD build'
+    env.Append(CPPPATH=["#../doctest/doctest",])
+    env.Append( CCFLAGS = [
+        '-DTDD',
+        ] )
+    
+full_path = os.path.realpath(".")
+path, cwd = os.path.split(full_path)
+
+# Set the target executable based on current dir name
+target = cwd
+
+# CCFLAGS : general C and C++ flags
+env.Append( CCFLAGS = [
+    '-Wall',
+    '-Wextra',
+    '-std=c++14',
+    ] )
+
+env.Append( CCFLAGS = [
+    '-pg',
+    ] )
+
+sources = Glob('src/*.cpp')
+env.Program( target=target, source=sources)
+
+

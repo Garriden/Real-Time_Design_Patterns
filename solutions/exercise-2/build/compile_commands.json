@@ -1,0 +1,62 @@
+[
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-2/build",
+    "command": "c++ -Isrc/src@@exercies-2@exe -Isrc -I../src -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g  -MD -MQ 'src/src@@exercies-2@exe/main.cpp.o' -MF 'src/src@@exercies-2@exe/main.cpp.o.d' -o 'src/src@@exercies-2@exe/main.cpp.o' -c ../src/main.cpp",
+    "file": "../src/main.cpp"
+  },
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-2/build",
+    "command": "c++ -Isrc/src@@exercies-2@exe -Isrc -I../src -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g  -MD -MQ 'src/src@@exercies-2@exe/Event.cpp.o' -MF 'src/src@@exercies-2@exe/Event.cpp.o.d' -o 'src/src@@exercies-2@exe/Event.cpp.o' -c ../src/Event.cpp",
+    "file": "../src/Event.cpp"
+  },
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-2/build",
+    "command": "c++ -Isrc/src@@exercies-2@exe -Isrc -I../src -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g  -MD -MQ 'src/src@@exercies-2@exe/Display.cpp.o' -MF 'src/src@@exercies-2@exe/Display.cpp.o.d' -o 'src/src@@exercies-2@exe/Display.cpp.o' -c ../src/Display.cpp",
+    "file": "../src/Display.cpp"
+  },
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-2/build",
+    "command": "c++ -Isrc/src@@exercies-2@exe -Isrc -I../src -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g  -MD -MQ 'src/src@@exercies-2@exe/Generator.cpp.o' -MF 'src/src@@exercies-2@exe/Generator.cpp.o.d' -o 'src/src@@exercies-2@exe/Generator.cpp.o' -c ../src/Generator.cpp",
+    "file": "../src/Generator.cpp"
+  },
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-2/build",
+    "command": "c++ -Isrc/src@@exercies-2@exe -Isrc -I../src -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g  -MD -MQ 'src/src@@exercies-2@exe/LowPass.cpp.o' -MF 'src/src@@exercies-2@exe/LowPass.cpp.o.d' -o 'src/src@@exercies-2@exe/LowPass.cpp.o' -c ../src/LowPass.cpp",
+    "file": "../src/LowPass.cpp"
+  },
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-2/build",
+    "command": "c++ -Isrc/src@@exercies-2@exe -Isrc -I../src -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g  -MD -MQ 'src/src@@exercies-2@exe/Pipe.cpp.o' -MF 'src/src@@exercies-2@exe/Pipe.cpp.o.d' -o 'src/src@@exercies-2@exe/Pipe.cpp.o' -c ../src/Pipe.cpp",
+    "file": "../src/Pipe.cpp"
+  },
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-2/build",
+    "command": "c++ -Isrc/src@@test-ex2@exe -Isrc -I../src -I../src/../../doctest/doctest/ -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -DTDD  -MD -MQ 'src/src@@test-ex2@exe/main.cpp.o' -MF 'src/src@@test-ex2@exe/main.cpp.o.d' -o 'src/src@@test-ex2@exe/main.cpp.o' -c ../src/main.cpp",
+    "file": "../src/main.cpp"
+  },
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-2/build",
+    "command": "c++ -Isrc/src@@test-ex2@exe -Isrc -I../src -I../src/../../doctest/doctest/ -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -DTDD  -MD -MQ 'src/src@@test-ex2@exe/Event.cpp.o' -MF 'src/src@@test-ex2@exe/Event.cpp.o.d' -o 'src/src@@test-ex2@exe/Event.cpp.o' -c ../src/Event.cpp",
+    "file": "../src/Event.cpp"
+  },
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-2/build",
+    "command": "c++ -Isrc/src@@test-ex2@exe -Isrc -I../src -I../src/../../doctest/doctest/ -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -DTDD  -MD -MQ 'src/src@@test-ex2@exe/Display.cpp.o' -MF 'src/src@@test-ex2@exe/Display.cpp.o.d' -o 'src/src@@test-ex2@exe/Display.cpp.o' -c ../src/Display.cpp",
+    "file": "../src/Display.cpp"
+  },
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-2/build",
+    "command": "c++ -Isrc/src@@test-ex2@exe -Isrc -I../src -I../src/../../doctest/doctest/ -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -DTDD  -MD -MQ 'src/src@@test-ex2@exe/Generator.cpp.o' -MF 'src/src@@test-ex2@exe/Generator.cpp.o.d' -o 'src/src@@test-ex2@exe/Generator.cpp.o' -c ../src/Generator.cpp",
+    "file": "../src/Generator.cpp"
+  },
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-2/build",
+    "command": "c++ -Isrc/src@@test-ex2@exe -Isrc -I../src -I../src/../../doctest/doctest/ -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -DTDD  -MD -MQ 'src/src@@test-ex2@exe/LowPass.cpp.o' -MF 'src/src@@test-ex2@exe/LowPass.cpp.o.d' -o 'src/src@@test-ex2@exe/LowPass.cpp.o' -c ../src/LowPass.cpp",
+    "file": "../src/LowPass.cpp"
+  },
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-2/build",
+    "command": "c++ -Isrc/src@@test-ex2@exe -Isrc -I../src -I../src/../../doctest/doctest/ -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -DTDD  -MD -MQ 'src/src@@test-ex2@exe/Pipe.cpp.o' -MF 'src/src@@test-ex2@exe/Pipe.cpp.o.d' -o 'src/src@@test-ex2@exe/Pipe.cpp.o' -c ../src/Pipe.cpp",
+    "file": "../src/Pipe.cpp"
+  }
+]

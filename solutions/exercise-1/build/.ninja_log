@@ -1,0 +1,9 @@
+# ninja log v5
+1	355	1542301382	src/src@@app@exe/Event.cpp.o	2c8ae19eb450f5b3
+1	482	1542301382	src/src@@test-app@exe/Event.cpp.o	a9153fbd8ceaad5b
+0	819	1542301382	src/src@@app@exe/main.cpp.o	3a1cebe7054a8030
+820	875	1542301382	src/app	ea7c25e0989d4e9a
+1	2013	1542301383	src/src@@test-app@exe/main.cpp.o	fb11debccd23753a
+2013	2092	1542301384	src/test-app	2e04f934dffed1e3
+2	283	0	meson-test	14aa05a038da6fc7
+0	4378	0	meson-coverage-html	b76ce295c05d9338

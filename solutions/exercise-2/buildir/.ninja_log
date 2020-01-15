@@ -1,0 +1,16 @@
+# ninja log v5
+5	70	0	src/src@@exercies-2@exe/main.cpp.o	3b886319969ab419
+7	79	0	src/src@@exercies-2@exe/Event.cpp.o	ca265aeb42598ab9
+80	274	0	src/src@@test-ex2@exe/Event.cpp.o	753bddc99a8b77bd
+10	518	0	src/src@@exercies-2@exe/Generator.cpp.o	823798d0983107a0
+12	562	0	src/src@@exercies-2@exe/LowPass.cpp.o	bbc8ebaab5407de6
+14	644	0	src/src@@exercies-2@exe/Pipe.cpp.o	12815c6df2627178
+8	660	0	src/src@@exercies-2@exe/Display.cpp.o	8f7c9660eb9e8198
+276	855	0	src/src@@test-ex2@exe/Display.cpp.o	2e9e872d099b2160
+662	891	0	src/exercies-2	fed0b5eafa232a3c
+556	1065	0	src/src@@test-ex2@exe/Generator.cpp.o	37eb894a0078ef33
+648	1109	0	src/src@@test-ex2@exe/Pipe.cpp.o	9bddb517455266ef
+565	1134	0	src/src@@test-ex2@exe/LowPass.cpp.o	6deb60f746101b8a
+73	2188	0	src/src@@test-ex2@exe/main.cpp.o	9f53094ea6acf38c
+2210	2572	0	src/test-ex2	14abdf4e12f9eb60
+1	21	0	meson-clean	d59b6dac04fa9b5d

@@ -1,0 +1,18 @@
+# ninja log v5
+0	160	0	src/src@@exercies-3@exe/Event.cpp.o	af06a70ec3ad72aa
+0	164	0	src/src@@exercies-3@exe/main.cpp.o	14e85dd3a2bd9c9a
+1	206	0	src/src@@test-ex3@exe/Event.cpp.o	503da6ff3200c47c
+1	928	0	src/src@@test-ex3@exe/main.cpp.o	a1ad195ffeb5a26a
+0	286	0	build.ninja	da3a745272bffdd
+3	444	0	src/src@@exercies-3@exe/Pipe.cpp.o	f138274bff86c751
+2	453	0	src/src@@exercies-3@exe/Display.cpp.o	1e5c4e497d0f24bc
+4	460	0	src/src@@test-ex3@exe/Generator.cpp.o	cc4303f3a743919a
+3	465	0	src/src@@exercies-3@exe/LowPass.cpp.o	8b0c75178780c74b
+2	469	0	src/src@@exercies-3@exe/Generator.cpp.o	122476c9edaf86a9
+4	480	0	src/src@@test-ex3@exe/Pipe.cpp.o	d014cdac8ee7d5e1
+3	485	0	src/src@@test-ex3@exe/Display.cpp.o	d5ba5302c98c042c
+4	494	0	src/src@@test-ex3@exe/LowPass.cpp.o	99c34256ac9f222b
+469	510	0	src/exercies-3	37c285cb637f9da7
+494	536	0	src/test-ex3	aa650091d323e5c9
+2	199	0	meson-test	14aa05a038da6fc7
+0	7	0	meson-clean	d59b6dac04fa9b5d

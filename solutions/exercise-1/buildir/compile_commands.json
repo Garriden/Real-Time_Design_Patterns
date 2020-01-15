@@ -1,0 +1,22 @@
+[
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-1/buildir",
+    "command": "c++ -Isrc/src@@app@exe -Isrc -I../src -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g  -MD -MQ 'src/src@@app@exe/main.cpp.o' -MF 'src/src@@app@exe/main.cpp.o.d' -o 'src/src@@app@exe/main.cpp.o' -c ../src/main.cpp",
+    "file": "../src/main.cpp"
+  },
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-1/buildir",
+    "command": "c++ -Isrc/src@@app@exe -Isrc -I../src -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g  -MD -MQ 'src/src@@app@exe/Event.cpp.o' -MF 'src/src@@app@exe/Event.cpp.o.d' -o 'src/src@@app@exe/Event.cpp.o' -c ../src/Event.cpp",
+    "file": "../src/Event.cpp"
+  },
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-1/buildir",
+    "command": "c++ -Isrc/src@@test-app@exe -Isrc -I../src -I../src/../../doctest/doctest/ -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -DTDD  -MD -MQ 'src/src@@test-app@exe/main.cpp.o' -MF 'src/src@@test-app@exe/main.cpp.o.d' -o 'src/src@@test-app@exe/main.cpp.o' -c ../src/main.cpp",
+    "file": "../src/main.cpp"
+  },
+  {
+    "directory": "/Users/Niall/Training/DesignPatterns/C++11/dp11-303/dp11-303-exercises/solutions/exercise-1/buildir",
+    "command": "c++ -Isrc/src@@test-app@exe -Isrc -I../src -I../src/../../doctest/doctest/ -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -DTDD  -MD -MQ 'src/src@@test-app@exe/Event.cpp.o' -MF 'src/src@@test-app@exe/Event.cpp.o.d' -o 'src/src@@test-app@exe/Event.cpp.o' -c ../src/Event.cpp",
+    "file": "../src/Event.cpp"
+  }
+]

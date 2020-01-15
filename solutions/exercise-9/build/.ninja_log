@@ -1,0 +1,18 @@
+# ninja log v5
+1	251	0	src/src@@exercies-9@exe/Event.cpp.o	b56cfa24a738c002
+3	315	0	src/src@@test-ex9@exe/Event.cpp.o	93d37e9b213c52cf
+0	545	0	src/src@@exercies-9@exe/main.cpp.o	5e0143c48365e9a8
+2	567	0	src/src@@exercies-9@exe/Pipe.cpp.o	4d792b5e4dc771bd
+1	604	0	src/src@@exercies-9@exe/Display.cpp.o	cd45ecafea3ea77f
+3	605	0	src/src@@test-ex9@exe/Display.cpp.o	b7be0d0c1d2e36c9
+4	658	0	src/src@@test-ex9@exe/Pipe.cpp.o	9203c70920d5543a
+1	708	0	src/src@@exercies-9@exe/Generator.cpp.o	6eb0e5e1f04333e
+3	709	0	src/src@@test-ex9@exe/Generator.cpp.o	b22b8cec6565f986
+1	831	0	src/src@@exercies-9@exe/LowPass.cpp.o	769139c39dcf9703
+2	1211	0	src/src@@test-ex9@exe/main.cpp.o	e76b5b2dde8c11d2
+1	525	0	src/src@@exercies-9@exe/LowPass.cpp.o	769139c39dcf9703
+2	546	0	src/src@@test-ex9@exe/LowPass.cpp.o	dc7c1d610e1aef8e
+525	563	0	src/exercies-9	a05d4cd6ebe04214
+547	590	0	src/test-ex9	1e3cbfa387bc9136
+2	199	0	meson-test	14aa05a038da6fc7
+0	7	0	meson-clean	d59b6dac04fa9b5d
