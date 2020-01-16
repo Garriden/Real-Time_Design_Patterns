@@ -19,7 +19,6 @@ public:
     void setType(const char* c);
     Type getType();
     const char* getTypeAsString();
-    int getIndexEnum(Type t);
 
 private:
     Type type_;

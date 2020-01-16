@@ -15,7 +15,7 @@ int LowPass::run()
     int ret = -1;
     Event e = inputPipe_->pull();
     if(e.getType() != Event::Type::UNKNOWN) {
-        if(e.getIndexEnum(e.getType()) >= passValue_) {
+        if(static_cast<int>(e.getType()) >= passValue_) {
             outputPipe_->push(e);
         }
         ret = 0;

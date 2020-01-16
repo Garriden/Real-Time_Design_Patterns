@@ -52,18 +52,3 @@ const char* Event::getTypeAsString()
             return "UNKNOWN";
     }
 }
-
-int Event::getIndexEnum(Event::Type t)
-{
-    switch(t)
-    {
-        case Type::WARNING:
-            return 0;
-        case Type::CAUTION:
-            return 1;
-        case Type::ADVISORY:
-            return 2;
-        case Type::UNKNOWN:
-            return -1;
-    }
-}
